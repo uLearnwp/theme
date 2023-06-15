@@ -17,6 +17,8 @@ uLearn natively works with the MasterStudy LMS plugin and helps to customize the
 
 This can help attract more traffic to the eLearning website and increase engagement. A number of exquisite LMS widgets: Courses Carousel, Courses Grid, Search Box, Featured Teacher, and Recent Courses speed up the running full-fledged education website. A simple yet efficient demo importer will allow you to easily install the entire layout that will fit perfectly on your WordPress.
 
+Take a look at the theme in the demo - https://ulearn.uz/
+
 == Installation ==
 = From within WordPress =
 1. Visit "Appearance > Themes > Add New"
@@ -28,7 +30,7 @@ This can help attract more traffic to the eLearning website and increase engagem
 == Copyright ==
 uLearn LMS Starter WordPress theme, Copyright 2023 ulearnwp
 uLearn is distributed under the terms of the GNU GPLv3 or later
-GitHub Repo: https://github.com/ulearnwp/theme/upload/main
+GitHub Repo: https://github.com/uLearnwp/theme
 
 == Changelog ==
 
