@@ -1,0 +1,88 @@
+@import "variables";
+
+ul.page-numbers {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  margin: 100px 0 50px;
+  @media (max-width: 800px) {
+    flex-wrap: wrap;
+    margin-bottom: 90px;
+  }
+
+  li {
+    margin-right: 5px;
+
+    .page-numbers {
+      display: inline-block;
+      padding: 12px 20px;
+      text-decoration: none;
+      font-family: $secondary_font_family;
+      font-weight: 700;
+      font-size: 16px;
+
+      i {
+        color: $primary-color;
+      }
+
+      &:hover {
+        background-color: $primary-color;
+        color: $white;
+
+        i {
+          color: $white;
+        }
+      }
+
+      &.current {
+        background-color: $primary-color;
+        border-color: $primary-color;
+        color: $white;
+      }
+
+      &.dots {
+        background-color: transparent;
+        &:hover {
+          background-color: $primary-color;
+        }
+      }
+
+      @media screen and (max-width: 420px) {
+        padding: 4px 12px;
+      }
+    }
+  }
+}
+
+.pagination {
+  display: flex;
+  margin: 0.8em 0 1.25em;
+
+  li {
+    margin-right: 5px;
+
+    .post-page-numbers {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      width: 44px;
+      height: 44px;
+      text-decoration: none;
+      color: $secondary-color;
+      font-size: 16px;
+      font-weight: 700;
+
+      &:hover {
+        background-color: $light-gray;
+      }
+
+      &.current {
+        background-color: $primary-color;
+        border-color: $primary-color;
+        color: $white;
+      }
+    }
+  }
+}
+

@@ -1,0 +1,98 @@
+@import "../base/variables";
+
+.posts-template {
+	.post,
+	.page {
+		margin-bottom: 12px;
+		padding-bottom: 10px;
+		display: flex;
+		&.sticky {
+			border-bottom: 2px solid $primary-color;
+			margin-bottom: 30px;
+			padding-bottom: 15px;
+		}
+		.post-thumbnail {
+			flex-shrink: 0;
+			padding: 12px 24px 10px 0;
+		}
+		.post-main {
+			flex-grow: 1;
+			max-width: 100%;
+		}
+		.post-sticky-badge {
+			display: inline-block;
+			padding: 3px 8px;
+			border-radius: 5px;
+			background-color: $primary-color;
+			margin-bottom: 12px;
+			color: $white;
+			font-size: 13px;
+			font-weight: 400;
+		}
+		.post-title {
+			h2 {
+				font-size: 26px;
+				line-height: 1.5;
+				margin: 0 0 8px;
+			}
+		}
+		.post-content {
+			p {
+				&:first-child {
+					margin-top: 0;
+				}
+				&:last-child {
+					margin-bottom: 1em;
+				}
+			}
+		}
+		.post-info {
+			display: flex;
+			align-items: center;
+			flex-wrap: wrap;
+			&__item {
+				display: inline-block;
+				margin-right: 28px;
+				margin-bottom: 8px;
+				font-size: 13px;
+				line-height: 1.7;
+				&:before {
+					font-family: 'Linearicons-Free';
+					display: inline-block;
+					vertical-align: middle;
+					margin-top: -2px;
+					margin-right: 4px;
+					font-size: 125%;
+					color: $primary-color;
+				}
+				&.post-categories {
+					&:before {
+						content: "\e828";
+					}
+				}
+				&.post-author {
+					&:before {
+						content: "\e82a";
+					}
+				}
+				&.post-date {
+					&:before {
+						content: "\e836";
+					}
+				}
+				&.post-comment {
+					&:before {
+						content: "\e83f";
+					}
+				}
+				a {
+					color: $text-color;
+					text-decoration: none;
+					&:hover {
+						text-decoration: underline;
+					}
+				}
+			}
+		}
+	}
+}

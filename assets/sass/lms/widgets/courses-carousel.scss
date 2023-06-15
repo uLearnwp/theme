@@ -1,0 +1,26 @@
+@import "../../components/base/variables";
+
+.ulearn-theme {
+  .stm_lms_courses_carousel {
+    position: relative;
+    .stm_lms_courses_carousel__buttons {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 110%;
+      @media (max-width: 1030px) {
+        display: none;
+      }
+
+      transform: translate(-50%, -50%);
+      .stm_lms_courses_carousel__button_prev {
+        position: absolute;
+        left: 0;
+      }
+      .stm_lms_courses_carousel__button_next {
+        position: absolute;
+        right: 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,463 @@
+/* All theme color values should be here.
+ * Delete this comment after reading!
+ */
+/* Colors */
+/* Fonts */
+.comments-title {
+  font-size: 30px;
+  line-height: 1.2em; }
+
+.comment-list .comment,
+.comment-list .trackback,
+.comment-list .pingback {
+  border-top: 1px solid #DDEAF3; }
+  .comment-list .comment .comment-body,
+  .comment-list .trackback .comment-body,
+  .comment-list .pingback .comment-body {
+    padding: 30px 0 22px 0; }
+    .comment-list .comment .comment-body p,
+    .comment-list .trackback .comment-body p,
+    .comment-list .pingback .comment-body p {
+      font-size: 14px;
+      line-height: 1.70em;
+      color: #414562;
+      font-family: system-ui; }
+  .comment-list .comment .comment-reply-title small,
+  .comment-list .trackback .comment-reply-title small,
+  .comment-list .pingback .comment-reply-title small {
+    float: right;
+    line-height: 36px;
+    text-decoration: none;
+    font-size: 13px;
+    color: var(--primary_color); }
+    .comment-list .comment .comment-reply-title small a:before,
+    .comment-list .trackback .comment-reply-title small a:before,
+    .comment-list .pingback .comment-reply-title small a:before {
+      display: inline-block;
+      vertical-align: top;
+      content: "\e915";
+      font-family: 'starter';
+      margin-top: 1px;
+      margin-right: 12px;
+      font-size: 12px; }
+  .comment-list .comment .comment-header,
+  .comment-list .trackback .comment-header,
+  .comment-list .pingback .comment-header {
+    display: flex; }
+  .comment-list .comment .comment-meta .comment-author,
+  .comment-list .trackback .comment-meta .comment-author,
+  .comment-list .pingback .comment-meta .comment-author {
+    font-family: system-ui;
+    font-size: 18px;
+    line-height: 1.35em;
+    letter-spacing: -0.005em;
+    color: #222222; }
+    .comment-list .comment .comment-meta .comment-author .avatar,
+    .comment-list .trackback .comment-meta .comment-author .avatar,
+    .comment-list .pingback .comment-meta .comment-author .avatar {
+      float: left;
+      margin-right: 20px;
+      border-radius: 78px; }
+    .comment-list .comment .comment-meta .comment-author a,
+    .comment-list .trackback .comment-meta .comment-author a,
+    .comment-list .pingback .comment-meta .comment-author a {
+      color: #222222; }
+  .comment-list .comment .comment-meta .comment-metadata,
+  .comment-list .trackback .comment-meta .comment-metadata,
+  .comment-list .pingback .comment-meta .comment-metadata {
+    font-size: 90%;
+    line-height: 1.8; }
+  .comment-list .comment .comment-content,
+  .comment-list .trackback .comment-content,
+  .comment-list .pingback .comment-content {
+    padding-top: 5px; }
+  .comment-list .comment.ulearn-comment .comment-body,
+  .comment-list .trackback.ulearn-comment .comment-body,
+  .comment-list .pingback.ulearn-comment .comment-body {
+    display: flex; }
+    .comment-list .comment.ulearn-comment .comment-body .comment-author-avatar,
+    .comment-list .trackback.ulearn-comment .comment-body .comment-author-avatar,
+    .comment-list .pingback.ulearn-comment .comment-body .comment-author-avatar {
+      min-width: 78px;
+      max-width: 78px;
+      height: 78px;
+      margin-right: 20px; }
+      .comment-list .comment.ulearn-comment .comment-body .comment-author-avatar .avatar,
+      .comment-list .trackback.ulearn-comment .comment-body .comment-author-avatar .avatar,
+      .comment-list .pingback.ulearn-comment .comment-body .comment-author-avatar .avatar {
+        border-radius: 78px; }
+    .comment-list .comment.ulearn-comment .comment-body .comment-info,
+    .comment-list .trackback.ulearn-comment .comment-body .comment-info,
+    .comment-list .pingback.ulearn-comment .comment-body .comment-info {
+      width: calc(100% - 98px); }
+      .comment-list .comment.ulearn-comment .comment-body .comment-info .comment-info-top,
+      .comment-list .trackback.ulearn-comment .comment-body .comment-info .comment-info-top,
+      .comment-list .pingback.ulearn-comment .comment-body .comment-info .comment-info-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center; }
+        @media (max-width: 600px) {
+          .comment-list .comment.ulearn-comment .comment-body .comment-info .comment-info-top,
+          .comment-list .trackback.ulearn-comment .comment-body .comment-info .comment-info-top,
+          .comment-list .pingback.ulearn-comment .comment-body .comment-info .comment-info-top {
+            align-items: flex-start;
+            flex-direction: column; } }
+        .comment-list .comment.ulearn-comment .comment-body .comment-info .comment-info-top .comment-info-top-left,
+        .comment-list .trackback.ulearn-comment .comment-body .comment-info .comment-info-top .comment-info-top-left,
+        .comment-list .pingback.ulearn-comment .comment-body .comment-info .comment-info-top .comment-info-top-left {
+          display: flex;
+          align-items: center; }
+          @media (max-width: 600px) {
+            .comment-list .comment.ulearn-comment .comment-body .comment-info .comment-info-top .comment-info-top-left,
+            .comment-list .trackback.ulearn-comment .comment-body .comment-info .comment-info-top .comment-info-top-left,
+            .comment-list .pingback.ulearn-comment .comment-body .comment-info .comment-info-top .comment-info-top-left {
+              flex-direction: column;
+              align-items: flex-start; } }
+          .comment-list .comment.ulearn-comment .comment-body .comment-info .comment-info-top .comment-info-top-left .comment-author, .comment-list .comment.ulearn-comment .comment-body .comment-info .comment-info-top .comment-info-top-left .comment-author a,
+          .comment-list .trackback.ulearn-comment .comment-body .comment-info .comment-info-top .comment-info-top-left .comment-author,
+          .comment-list .trackback.ulearn-comment .comment-body .comment-info .comment-info-top .comment-info-top-left .comment-author a,
+          .comment-list .pingback.ulearn-comment .comment-body .comment-info .comment-info-top .comment-info-top-left .comment-author,
+          .comment-list .pingback.ulearn-comment .comment-body .comment-info .comment-info-top .comment-info-top-left .comment-author a {
+            color: #414562;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 1.35em;
+            letter-spacing: -0.005em;
+            font-family: system-ui; }
+          .comment-list .comment.ulearn-comment .comment-body .comment-info .comment-info-top .comment-info-top-left .comment-date,
+          .comment-list .trackback.ulearn-comment .comment-body .comment-info .comment-info-top .comment-info-top-left .comment-date,
+          .comment-list .pingback.ulearn-comment .comment-body .comment-info .comment-info-top .comment-info-top-left .comment-date {
+            font-size: 14px;
+            color: #597393;
+            margin-left: 10px; }
+            @media (max-width: 600px) {
+              .comment-list .comment.ulearn-comment .comment-body .comment-info .comment-info-top .comment-info-top-left .comment-date,
+              .comment-list .trackback.ulearn-comment .comment-body .comment-info .comment-info-top .comment-info-top-left .comment-date,
+              .comment-list .pingback.ulearn-comment .comment-body .comment-info .comment-info-top .comment-info-top-left .comment-date {
+                margin-left: 0; } }
+        .comment-list .comment.ulearn-comment .comment-body .comment-info .comment-info-top .comment-info-top-right .comment-reply-link,
+        .comment-list .comment.ulearn-comment .comment-body .comment-info .comment-info-top .comment-info-top-right .comment-edit-link,
+        .comment-list .trackback.ulearn-comment .comment-body .comment-info .comment-info-top .comment-info-top-right .comment-reply-link,
+        .comment-list .trackback.ulearn-comment .comment-body .comment-info .comment-info-top .comment-info-top-right .comment-edit-link,
+        .comment-list .pingback.ulearn-comment .comment-body .comment-info .comment-info-top .comment-info-top-right .comment-reply-link,
+        .comment-list .pingback.ulearn-comment .comment-body .comment-info .comment-info-top .comment-info-top-right .comment-edit-link {
+          color: var(--primary_color);
+          font-size: 13px;
+          line-height: 1.38em;
+          text-decoration: none;
+          margin-left: 20px;
+          opacity: 0; }
+          @media (max-width: 600px) {
+            .comment-list .comment.ulearn-comment .comment-body .comment-info .comment-info-top .comment-info-top-right .comment-reply-link,
+            .comment-list .comment.ulearn-comment .comment-body .comment-info .comment-info-top .comment-info-top-right .comment-edit-link,
+            .comment-list .trackback.ulearn-comment .comment-body .comment-info .comment-info-top .comment-info-top-right .comment-reply-link,
+            .comment-list .trackback.ulearn-comment .comment-body .comment-info .comment-info-top .comment-info-top-right .comment-edit-link,
+            .comment-list .pingback.ulearn-comment .comment-body .comment-info .comment-info-top .comment-info-top-right .comment-reply-link,
+            .comment-list .pingback.ulearn-comment .comment-body .comment-info .comment-info-top .comment-info-top-right .comment-edit-link {
+              margin-left: 0;
+              margin-right: 15px;
+              opacity: 1; } }
+          .comment-list .comment.ulearn-comment .comment-body .comment-info .comment-info-top .comment-info-top-right .comment-reply-link i,
+          .comment-list .comment.ulearn-comment .comment-body .comment-info .comment-info-top .comment-info-top-right .comment-edit-link i,
+          .comment-list .trackback.ulearn-comment .comment-body .comment-info .comment-info-top .comment-info-top-right .comment-reply-link i,
+          .comment-list .trackback.ulearn-comment .comment-body .comment-info .comment-info-top .comment-info-top-right .comment-edit-link i,
+          .comment-list .pingback.ulearn-comment .comment-body .comment-info .comment-info-top .comment-info-top-right .comment-reply-link i,
+          .comment-list .pingback.ulearn-comment .comment-body .comment-info .comment-info-top .comment-info-top-right .comment-edit-link i {
+            margin-right: 5px; }
+          .comment-list .comment.ulearn-comment .comment-body .comment-info .comment-info-top .comment-info-top-right .comment-reply-link:hover,
+          .comment-list .comment.ulearn-comment .comment-body .comment-info .comment-info-top .comment-info-top-right .comment-edit-link:hover,
+          .comment-list .trackback.ulearn-comment .comment-body .comment-info .comment-info-top .comment-info-top-right .comment-reply-link:hover,
+          .comment-list .trackback.ulearn-comment .comment-body .comment-info .comment-info-top .comment-info-top-right .comment-edit-link:hover,
+          .comment-list .pingback.ulearn-comment .comment-body .comment-info .comment-info-top .comment-info-top-right .comment-reply-link:hover,
+          .comment-list .pingback.ulearn-comment .comment-body .comment-info .comment-info-top .comment-info-top-right .comment-edit-link:hover {
+            color: #222222; }
+      .comment-list .comment.ulearn-comment .comment-body .comment-info .comment-text,
+      .comment-list .trackback.ulearn-comment .comment-body .comment-info .comment-text,
+      .comment-list .pingback.ulearn-comment .comment-body .comment-info .comment-text {
+        margin-top: -8px; }
+    .comment-list .comment.ulearn-comment .comment-body:hover .comment-info .comment-info-top .comment-info-top-right .comment-reply-link,
+    .comment-list .comment.ulearn-comment .comment-body:hover .comment-info .comment-info-top .comment-info-top-right .comment-edit-link,
+    .comment-list .trackback.ulearn-comment .comment-body:hover .comment-info .comment-info-top .comment-info-top-right .comment-reply-link,
+    .comment-list .trackback.ulearn-comment .comment-body:hover .comment-info .comment-info-top .comment-info-top-right .comment-edit-link,
+    .comment-list .pingback.ulearn-comment .comment-body:hover .comment-info .comment-info-top .comment-info-top-right .comment-reply-link,
+    .comment-list .pingback.ulearn-comment .comment-body:hover .comment-info .comment-info-top .comment-info-top-right .comment-edit-link {
+      opacity: 1; }
+    @media (max-width: 480px) {
+      .comment-list .comment.ulearn-comment .comment-body .comment-info,
+      .comment-list .trackback.ulearn-comment .comment-body .comment-info,
+      .comment-list .pingback.ulearn-comment .comment-body .comment-info {
+        width: 100%; }
+      .comment-list .comment.ulearn-comment .comment-body .comment-text table th,
+      .comment-list .comment.ulearn-comment .comment-body .comment-text table td,
+      .comment-list .trackback.ulearn-comment .comment-body .comment-text table th,
+      .comment-list .trackback.ulearn-comment .comment-body .comment-text table td,
+      .comment-list .pingback.ulearn-comment .comment-body .comment-text table th,
+      .comment-list .pingback.ulearn-comment .comment-body .comment-text table td {
+        padding: 4px 5px;
+        font-size: 16px; } }
+  .comment-list .comment.ulearn-comment.depth-2 .comment-body,
+  .comment-list .trackback.ulearn-comment.depth-2 .comment-body,
+  .comment-list .pingback.ulearn-comment.depth-2 .comment-body {
+    padding-left: 60px; }
+    @media (max-width: 1025px) {
+      .comment-list .comment.ulearn-comment.depth-2 .comment-body,
+      .comment-list .trackback.ulearn-comment.depth-2 .comment-body,
+      .comment-list .pingback.ulearn-comment.depth-2 .comment-body {
+        padding-left: 20px; } }
+    @media (max-width: 999px) {
+      .comment-list .comment.ulearn-comment.depth-2 .comment-body,
+      .comment-list .trackback.ulearn-comment.depth-2 .comment-body,
+      .comment-list .pingback.ulearn-comment.depth-2 .comment-body {
+        padding-left: 10px; } }
+    .comment-list .comment.ulearn-comment.depth-2 .comment-body .comment-author-avatar,
+    .comment-list .trackback.ulearn-comment.depth-2 .comment-body .comment-author-avatar,
+    .comment-list .pingback.ulearn-comment.depth-2 .comment-body .comment-author-avatar {
+      min-width: 64px;
+      max-width: 64px;
+      height: 64px; }
+  .comment-list .comment.ulearn-comment.depth-3 .comment-body,
+  .comment-list .trackback.ulearn-comment.depth-3 .comment-body,
+  .comment-list .pingback.ulearn-comment.depth-3 .comment-body {
+    padding-left: 120px; }
+    @media (max-width: 1025px) {
+      .comment-list .comment.ulearn-comment.depth-3 .comment-body,
+      .comment-list .trackback.ulearn-comment.depth-3 .comment-body,
+      .comment-list .pingback.ulearn-comment.depth-3 .comment-body {
+        padding-left: 40px; } }
+    @media (max-width: 999px) {
+      .comment-list .comment.ulearn-comment.depth-3 .comment-body,
+      .comment-list .trackback.ulearn-comment.depth-3 .comment-body,
+      .comment-list .pingback.ulearn-comment.depth-3 .comment-body {
+        padding-left: 20px; } }
+  .comment-list .comment.ulearn-comment.depth-4 .comment-body,
+  .comment-list .trackback.ulearn-comment.depth-4 .comment-body,
+  .comment-list .pingback.ulearn-comment.depth-4 .comment-body {
+    padding-left: 180px; }
+    @media (max-width: 1025px) {
+      .comment-list .comment.ulearn-comment.depth-4 .comment-body,
+      .comment-list .trackback.ulearn-comment.depth-4 .comment-body,
+      .comment-list .pingback.ulearn-comment.depth-4 .comment-body {
+        padding-left: 60px; } }
+    @media (max-width: 999px) {
+      .comment-list .comment.ulearn-comment.depth-4 .comment-body,
+      .comment-list .trackback.ulearn-comment.depth-4 .comment-body,
+      .comment-list .pingback.ulearn-comment.depth-4 .comment-body {
+        padding-left: 30px; } }
+  .comment-list .comment.ulearn-comment.depth-5 .comment-body,
+  .comment-list .trackback.ulearn-comment.depth-5 .comment-body,
+  .comment-list .pingback.ulearn-comment.depth-5 .comment-body {
+    padding-left: 200px; }
+    @media (max-width: 1025px) {
+      .comment-list .comment.ulearn-comment.depth-5 .comment-body,
+      .comment-list .trackback.ulearn-comment.depth-5 .comment-body,
+      .comment-list .pingback.ulearn-comment.depth-5 .comment-body {
+        padding-left: 80px; } }
+    @media (max-width: 999px) {
+      .comment-list .comment.ulearn-comment.depth-5 .comment-body,
+      .comment-list .trackback.ulearn-comment.depth-5 .comment-body,
+      .comment-list .pingback.ulearn-comment.depth-5 .comment-body {
+        padding-left: 40px; } }
+  .comment-list .comment.ulearn-comment.depth-6 .comment-body,
+  .comment-list .trackback.ulearn-comment.depth-6 .comment-body,
+  .comment-list .pingback.ulearn-comment.depth-6 .comment-body {
+    padding-left: 220px; }
+    @media (max-width: 1025px) {
+      .comment-list .comment.ulearn-comment.depth-6 .comment-body,
+      .comment-list .trackback.ulearn-comment.depth-6 .comment-body,
+      .comment-list .pingback.ulearn-comment.depth-6 .comment-body {
+        padding-left: 100px; } }
+    @media (max-width: 999px) {
+      .comment-list .comment.ulearn-comment.depth-6 .comment-body,
+      .comment-list .trackback.ulearn-comment.depth-6 .comment-body,
+      .comment-list .pingback.ulearn-comment.depth-6 .comment-body {
+        padding-left: 50px; } }
+  .comment-list .comment.ulearn-comment.depth-7 .comment-body,
+  .comment-list .trackback.ulearn-comment.depth-7 .comment-body,
+  .comment-list .pingback.ulearn-comment.depth-7 .comment-body {
+    padding-left: 240px; }
+    @media (max-width: 1025px) {
+      .comment-list .comment.ulearn-comment.depth-7 .comment-body,
+      .comment-list .trackback.ulearn-comment.depth-7 .comment-body,
+      .comment-list .pingback.ulearn-comment.depth-7 .comment-body {
+        padding-left: 120px; } }
+    @media (max-width: 999px) {
+      .comment-list .comment.ulearn-comment.depth-7 .comment-body,
+      .comment-list .trackback.ulearn-comment.depth-7 .comment-body,
+      .comment-list .pingback.ulearn-comment.depth-7 .comment-body {
+        padding-left: 60px; } }
+  .comment-list .comment.ulearn-comment.depth-8 .comment-body,
+  .comment-list .trackback.ulearn-comment.depth-8 .comment-body,
+  .comment-list .pingback.ulearn-comment.depth-8 .comment-body {
+    padding-left: 260px; }
+    @media (max-width: 1025px) {
+      .comment-list .comment.ulearn-comment.depth-8 .comment-body,
+      .comment-list .trackback.ulearn-comment.depth-8 .comment-body,
+      .comment-list .pingback.ulearn-comment.depth-8 .comment-body {
+        padding-left: 140px; } }
+    @media (max-width: 999px) {
+      .comment-list .comment.ulearn-comment.depth-8 .comment-body,
+      .comment-list .trackback.ulearn-comment.depth-8 .comment-body,
+      .comment-list .pingback.ulearn-comment.depth-8 .comment-body {
+        padding-left: 70px; } }
+  .comment-list .comment.ulearn-comment.depth-9 .comment-body,
+  .comment-list .trackback.ulearn-comment.depth-9 .comment-body,
+  .comment-list .pingback.ulearn-comment.depth-9 .comment-body {
+    padding-left: 280px; }
+    @media (max-width: 1025px) {
+      .comment-list .comment.ulearn-comment.depth-9 .comment-body,
+      .comment-list .trackback.ulearn-comment.depth-9 .comment-body,
+      .comment-list .pingback.ulearn-comment.depth-9 .comment-body {
+        padding-left: 160px; }
+        .comment-list .comment.ulearn-comment.depth-9 .comment-body .comment-info,
+        .comment-list .trackback.ulearn-comment.depth-9 .comment-body .comment-info,
+        .comment-list .pingback.ulearn-comment.depth-9 .comment-body .comment-info {
+          width: 100%; } }
+    @media (max-width: 999px) {
+      .comment-list .comment.ulearn-comment.depth-9 .comment-body,
+      .comment-list .trackback.ulearn-comment.depth-9 .comment-body,
+      .comment-list .pingback.ulearn-comment.depth-9 .comment-body {
+        padding-left: 80px; }
+        .comment-list .comment.ulearn-comment.depth-9 .comment-body .comment-info,
+        .comment-list .trackback.ulearn-comment.depth-9 .comment-body .comment-info,
+        .comment-list .pingback.ulearn-comment.depth-9 .comment-body .comment-info {
+          width: 100%; } }
+  .comment-list .comment.ulearn-comment.depth-10 .comment-body,
+  .comment-list .trackback.ulearn-comment.depth-10 .comment-body,
+  .comment-list .pingback.ulearn-comment.depth-10 .comment-body {
+    padding-left: 300px; }
+    @media (max-width: 1025px) {
+      .comment-list .comment.ulearn-comment.depth-10 .comment-body,
+      .comment-list .trackback.ulearn-comment.depth-10 .comment-body,
+      .comment-list .pingback.ulearn-comment.depth-10 .comment-body {
+        padding-left: 180px; }
+        .comment-list .comment.ulearn-comment.depth-10 .comment-body .comment-info,
+        .comment-list .trackback.ulearn-comment.depth-10 .comment-body .comment-info,
+        .comment-list .pingback.ulearn-comment.depth-10 .comment-body .comment-info {
+          width: 500px; } }
+    @media (max-width: 1025px) {
+      .comment-list .comment.ulearn-comment.depth-10 .comment-body,
+      .comment-list .trackback.ulearn-comment.depth-10 .comment-body,
+      .comment-list .pingback.ulearn-comment.depth-10 .comment-body {
+        padding-left: 90px; }
+        .comment-list .comment.ulearn-comment.depth-10 .comment-body .comment-info,
+        .comment-list .trackback.ulearn-comment.depth-10 .comment-body .comment-info,
+        .comment-list .pingback.ulearn-comment.depth-10 .comment-body .comment-info {
+          width: 100%; } }
+
+.comment-list .trackback.ulearn-comment .comment-body .comment-author-avatar,
+.comment-list .pingback.ulearn-comment .comment-body .comment-author-avatar {
+  min-width: auto;
+  max-width: none;
+  height: auto;
+  margin-right: 0; }
+
+.comment-list .trackback.ulearn-comment .comment-body .comment-info,
+.comment-list .pingback.ulearn-comment .comment-body .comment-info {
+  width: 100%; }
+
+.comment-list .no-comments {
+  margin-top: 40px; }
+
+.comment-respond {
+  padding: 40px;
+  position: relative;
+  margin-top: 55px;
+  background: #F2F7F9; }
+  .comment-respond h3.comment-reply-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.2;
+    margin: 0 0 30px;
+    color: #414562;
+    position: relative;
+    z-index: 2; }
+    .comment-respond h3.comment-reply-title small {
+      font-size: 60%; }
+    .comment-respond h3.comment-reply-title #cancel-comment-reply-link {
+      margin-left: 15px; }
+    @media screen and (max-width: 480px) {
+      .comment-respond h3.comment-reply-title {
+        font-size: 24px; }
+        .comment-respond h3.comment-reply-title small {
+          float: left;
+          width: 100%;
+          margin-top: 10px; }
+          .comment-respond h3.comment-reply-title small #cancel-comment-reply-link {
+            margin-left: 0; } }
+  .comment-respond .comment-form {
+    position: relative;
+    z-index: 2; }
+    .comment-respond .comment-form .logged-in-as a {
+      font-weight: 500;
+      font-size: 14px;
+      font-family: system-ui;
+      line-height: 20px;
+      color: var(--primary_color); }
+      .comment-respond .comment-form .logged-in-as a:first-child {
+        color: #414562; }
+    .comment-respond .comment-form .logged-in-as .required-field-message {
+      color: #878995;
+      position: absolute;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 22px;
+      right: 0; }
+      @media (max-width: 640px) {
+        .comment-respond .comment-form .logged-in-as .required-field-message {
+          position: relative; } }
+    .comment-respond .comment-form .input-group {
+      margin: 0 0 20px;
+      width: 100%; }
+      .comment-respond .comment-form .input-group input[type="text"],
+      .comment-respond .comment-form .input-group input[type="email"],
+      .comment-respond .comment-form .input-group input[type="password"],
+      .comment-respond .comment-form .input-group input[type="url"],
+      .comment-respond .comment-form .input-group textarea {
+        width: 100%;
+        display: block;
+        color: #414562;
+        border-bottom: 1px solid rgba(135, 137, 149, 0.5);
+        font-family: system-ui;
+        font-size: 14px;
+        transition: 0.3s ease; }
+        .comment-respond .comment-form .input-group input[type="text"]::-webkit-input-placeholder,
+        .comment-respond .comment-form .input-group input[type="email"]::-webkit-input-placeholder,
+        .comment-respond .comment-form .input-group input[type="password"]::-webkit-input-placeholder,
+        .comment-respond .comment-form .input-group input[type="url"]::-webkit-input-placeholder,
+        .comment-respond .comment-form .input-group textarea::-webkit-input-placeholder {
+          color: #414562;
+          opacity: 0.5; }
+        .comment-respond .comment-form .input-group input[type="text"]::-moz-placeholder,
+        .comment-respond .comment-form .input-group input[type="email"]::-moz-placeholder,
+        .comment-respond .comment-form .input-group input[type="password"]::-moz-placeholder,
+        .comment-respond .comment-form .input-group input[type="url"]::-moz-placeholder,
+        .comment-respond .comment-form .input-group textarea::-moz-placeholder {
+          color: #414562;
+          opacity: 0.5; }
+        .comment-respond .comment-form .input-group input[type="text"]::-ms-input-placeholder,
+        .comment-respond .comment-form .input-group input[type="email"]::-ms-input-placeholder,
+        .comment-respond .comment-form .input-group input[type="password"]::-ms-input-placeholder,
+        .comment-respond .comment-form .input-group input[type="url"]::-ms-input-placeholder,
+        .comment-respond .comment-form .input-group textarea::-ms-input-placeholder {
+          color: #414562;
+          opacity: 0.5; }
+        .comment-respond .comment-form .input-group input[type="text"]::placeholder,
+        .comment-respond .comment-form .input-group input[type="email"]::placeholder,
+        .comment-respond .comment-form .input-group input[type="password"]::placeholder,
+        .comment-respond .comment-form .input-group input[type="url"]::placeholder,
+        .comment-respond .comment-form .input-group textarea::placeholder {
+          color: #414562;
+          opacity: 0.5; }
+      .comment-respond .comment-form .input-group textarea {
+        height: 120px;
+        resize: vertical; }
+    .comment-respond .comment-form .form-submit {
+      margin: 30px 0 10px; }
+  .comment-respond label {
+    display: block;
+    margin: 0 0 5px; }
+  .comment-respond input[type="checkbox"] + label, .comment-respond input[type="radio"] + label {
+    display: inline; }
+
+.comment .comment-respond {
+  margin-bottom: 40px; }

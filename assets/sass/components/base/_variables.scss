@@ -1,0 +1,169 @@
+/* All theme color values should be here.
+ * Delete this comment after reading!
+ */
+/* Colors */
+
+$text-color: var(--text_color);
+$primary-color: var(--primary_color);
+$primary_variant-color: #92643A;
+$footer_background: #385bce;
+$primary-hover_color: #273044;
+$secondary-color: var(--secondary_color);
+$secondary_variant-color: #414562;
+$third-color: #222222;
+$black: #000000FF;
+$heading-color: var(--heading_color);
+$link-color: #273044;
+$link-color-on-action: var(--link_color_hover);
+
+
+$white: #ffffff;
+$black: #000000;
+$gray: #878995;
+$yellow: #FFCA32;
+$green: #66C109;
+$red: #F64662;
+$footer_background: #0E163D;
+$dark_blue: #414562;
+
+$block-first-color: #597393;
+$block-second-color: #BFD4E4;
+$block-third-color: #DDEAF3;
+$block-fourth-color: #F2F7F9;
+
+
+//Alerts
+$alert-warning-text-color: #FF905F;
+$alert-warning-background-color: #FFEBCC;
+$alert-success-text-color: #66C109;
+$alert-success-background-color: #E2FBD7;
+$alert-error-text-color: #F64662;
+$alert-error-text-color-secondary: #E50000;
+$alert-error-background-color: #FFDBD3;
+$alert-info-text-color: #4350E3;
+$alert-info-background-color: #C2EEFF;
+
+$light-black: #222222;
+$light-gray: #f0f0f0;
+$light-weight-gray: #f1f1f1;
+$dark-gray: #bfbfbf;
+$black-gray: #888888;
+$darker-gray: #707070;
+$light-blue: #21759b;
+
+
+/* Fonts */
+$body_font_family: system-ui;
+$secondary-font-family: system-ui;
+$body_font_weight: var(--body_font_weight);
+$body_font_size: var(--body_font_size);
+$body_line_height: var(--body_line_height);
+$body_word_spacing: var(--body_word_spacing);
+$body_letter_spacing: var(--body_letter_spacing);
+
+$h1_font_family: system-ui;
+$h2_font_family: system-ui;
+$h3_font_family: system-ui;
+$h4_font_family: system-ui;
+$h5_font_family: system-ui;
+$h6_font_family: system-ui;
+
+
+@mixin pseudo($position,$width,$height){
+  content: ' ';
+  display: block;
+  position: $position;
+  width: $width;
+  height: $height;
+  z-index: 10;
+}
+
+// Colors
+$white: #fff;
+$black: #000;
+
+$yellow: #fdc735;
+
+$orange: #fd7635;
+
+// Orange palette
+$orange-dk: #eab830;
+
+$blue-dk: #0050b4;
+
+// Button near blue palette
+$blue-lt-dk: #6e85a0;
+$blue-link: #48a7d4;
+
+// Grey lights
+$grey: #ccc;
+$grey-lt: #aaa;
+$grey-dk: #333;
+$grey-text: #555;
+$grey-lt-ultra: #e0e5eb;
+
+
+// Button near grey palette
+$grey-lt-dk: #839bb8;
+
+
+$red:#f13e3e;
+$green:#10c45c;
+$dark:#2c2f32;
+$d_green:#2dd675;
+$violet:#8464ea;
+
+// Social icons colors
+$facebook: #3684e3;
+$twitter: #53c8ff;
+$google-plus: #dd4b39;
+$linkedin: #2437ab;
+$youtube: #bb0000;
+
+// Responsive
+$xs: unquote("(max-width:767px)");
+$sm: unquote("(max-width:991px) and (min-width:768px)");
+$sm-xs: unquote("(max-width:991px)");
+$md: unquote("(max-width:1199px) and (min-width:992px)");
+$mobile: unquote("(max-width:515px)");
+
+
+
+$h1_font_family: var(--h1_font_family);
+$h1_font_weight: var(--h1_font_weight);
+$h1_font_size: var(--h1_font_size);
+$h1_line_height: var(--h1_line_height);
+$h1_word_spacing: var(--h1_word_spacing);
+$h1_letter_spacing: var(--h1_letter_spacing);
+$h2_font_family: var(--h2_font_family);
+$h2_font_weight: var(--h2_font_weight);
+$h2_font_size: var(--h2_font_size);
+$h2_line_height: var(--h2_line_height);
+$h2_word_spacing: var(--h2_word_spacing);
+$h2_letter_spacing: var(--h2_letter_spacing);
+$h3_font_family: var(--h3_font_family);
+$h3_font_weight: var(--h3_font_weight);
+$h3_font_size: var(--h3_font_size);
+$h3_line_height: var(--h3_line_height);
+$h3_word_spacing: var(--h3_word_spacing);
+$h3_letter_spacing: var(--h3_letter_spacing);
+$h4_font_family: var(--h4_font_family);
+$h4_font_weight: var(--h4_font_weight);
+$h4_font_size: var(--h4_font_size);
+$h4_line_height: var(--h4_line_height);
+$h4_word_spacing: var(--h4_word_spacing);
+$h4_letter_spacing: var(--h4_letter_spacing);
+$h5_font_family: var(--h5_font_family);
+$h5_font_weight: var(--h5_font_weight);
+$h5_font_size: var(--h5_font_size);
+$h5_line_height: var(--h5_line_height);
+$h5_word_spacing: var(--h5_word_spacing);
+$h5_letter_spacing: var(--h5_letter_spacing);
+$h6_font_family: var(--h6_font_family);
+$h6_font_weight: var(--h6_font_weight);
+$h6_font_size: var(--h6_font_size);
+$h6_line_height: var(--h6_line_height);
+$h6_word_spacing: var(--h6_word_spacing);
+$h6_letter_spacing: var(--h6_letter_spacing);
+
+$links_font_family: var(--links_font_family);

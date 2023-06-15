@@ -1,0 +1,163 @@
+@import "components/base/forms";
+@import "components/base/layout";
+@import "components/base/grid";
+@import "components/base/pagination";
+@import "components/base/reset";
+@import "components/base/typography";
+@import "components/base/wordpress_core";
+@import "components/footer/footer";
+@import "components/widgets/main";
+@import "lms/main";
+@import "components/woocommerce";
+@import "lms/addons";
+@import "lms/bundles";
+@import "lms/pmp-pro";
+@import "components/widgets/main";
+
+header#header {
+  z-index: 999;
+  font-family: system-ui;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+}
+body {
+  .container {
+    width: auto;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
+body:not(.ulearn-theme) {
+  .ulearn-footer {
+    position: relative;
+  }
+  max-width: 100%;
+  overflow-x: visible !important;
+}
+body, .normal_font {
+  font-family: system-ui;
+  color: #555555;
+  font-size: 14px;
+}
+
+.btn {
+  font-family: system-ui;
+  font-size: 14px;
+}
+
+.header-menu {
+  font-family: system-ui;
+  font-weight: 900;
+  color: #fff;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, .nav-tabs > li > a, .heading_font, table, .widget_categories ul li a, .sidebar-area .widget ul li a, .select2-selection__rendered, blockquote, .select2-chosen, .vc_tta-tabs.vc_tta-tabs-position-top .vc_tta-tabs-container .vc_tta-tabs-list li.vc_tta-tab a, .vc_tta-tabs.vc_tta-tabs-position-left .vc_tta-tabs-container .vc_tta-tabs-list li.vc_tta-tab a {
+  font-family: system-ui;
+  color: #333333;
+}
+
+h1, .h1 {
+  font-weight: 700;
+  font-size: 50px;
+}
+
+h2, .h2 {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+h3, .h3 {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+h4, .h4, blockquote {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+h5, .h5, .select2-selection__rendered {
+  font-weight: 700;
+  font-size: 14px;
+}
+.ulearn-theme {
+
+  .stm-lms-wrapper .ulearn-row {
+    display: block;
+  }
+}
+
+h6, .h6, .widget_pages ul li a, .widget_nav_menu ul li a, .footer_menu li a, .widget_categories ul li a, .sidebar-area .widget ul li a {
+  font-weight: 400;
+  font-size: 12px;
+}
+.stm-testimonials-carousel-wrapper .ms-lms-elementor-testimonials-swiper-pagination .swiper-pagination-bullet {
+  background-position: center;
+  background-size: cover !important;
+}
+.courses_filters .stm_lms_courses_grid__sort .no-search {
+  width: auto;
+}
+
+//preloader
+.ulearn_loader_bg {
+  position: fixed;
+  z-index: 9999999;
+  top: 0;
+  left: 0;
+  margin-top: 0 !important;
+  max-width: 100% !important;
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.ulearn_loader {
+  width: 48px;
+  height: 48px;
+  position: fixed;
+  top: calc(50vh - 24px);
+  border-radius: 50%;
+  display: inline-block;
+  border: 3px solid;
+  border-color: #17d292 #17d292 transparent transparent;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+.ulearn_loader::after,
+.ulearn_loader::before {
+  content: '';
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  border: 3px solid;
+  border-color: transparent transparent #385bce #385bce;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  animation: rotationBack 0.5s linear infinite;
+  transform-origin: center center;
+}
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotationBack {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}

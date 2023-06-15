@@ -1,0 +1,132 @@
+@import "../components/base/variables";
+
+.ulearn-theme {
+
+  .stm_lms_questions_v2_wrapper {
+    .wpcfto_radio input {
+      min-height: auto !important;
+    }
+    .wpcfto_checkbox input {
+      min-height: auto !important;
+    }
+  }
+
+  .stm-lms-buy-buttons .btn:not(.start-course).btn_big .btn-prices.btn-prices-price {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .stm-lms-buy-buttons .btn:not(.start-course).btn_big .btn-prices label.sale_price {
+    margin-right: 5px;
+  }
+
+  .stm_lms_courses_grid__sort {
+    select.no-search {
+      width: auto;
+    }
+  }
+
+  .stm_lms_course__title {
+    line-height: 45px;
+    word-spacing: -1px;
+    letter-spacing: -0.4px;
+    font-weight: 300;
+    font-size: 40px;
+  }
+
+  .single_product_after_title .meta-unit .value {
+    color: $grey-text;
+  }
+
+  .stm_product_list_widget.widget_woo_stm_style_2 li a .meta .title {
+    font-family: $body_font_family;
+    color: $primary-hover_color;
+    font-size: 14px;
+  }
+
+  .stm_product_list_widget {
+    li {
+      a {
+        img {
+          width: 75px;
+          height: 75px;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+
+  .widget_stm_lms_popular_courses {
+    h3 {
+      line-height: 34px;
+      letter-spacing: -1px;
+      font-weight: 400;
+      font-size: 24px;
+    }
+  }
+
+  .stm_lms_courses__single--info_title h4 {
+    color: $primary-hover_color;
+
+    &:hover {
+      color: $primary-color;
+    }
+  }
+
+  .stm_lms_related_courses h2 {
+    margin-bottom: 40px;
+    line-height: 38px;
+    letter-spacing: -0.4px;
+    font-weight: 300;
+    font-size: 32px;
+  }
+
+  .stm_lms_courses__single--title h5 {
+    font-weight: 500;
+    color: $primary-hover_color;
+  }
+
+  .stm-curriculum-section h3 {
+    margin: 45px 0 21px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: -1px;
+    font-size: 24px;
+  }
+
+  .stm-lms-wrapper {
+    padding: 50px 0 50px;
+  }
+
+  .stm_lms_course__content {
+    h3 {
+      line-height: 34px;
+      letter-spacing: -1px;
+      font-weight: 400;
+      font-size: 24px;
+    }
+
+    p {
+      margin: 0 0 35px;
+      font-size: 15px;
+      line-height: 30px;
+      color: #555;
+    }
+
+    ul {
+      list-style-type: disc;
+      margin-left: 20px;
+    }
+
+    li {
+      margin-bottom: 8px;
+      font-family: system-ui;
+      color: #273044;
+      font-size: 14px;
+    }
+  }
+}
+body .stm_metaboxes_grid .stm_metaboxes_grid__inner .stm-lms-questions-single.stm-lms-questions-image_match.list .actions .actions_single_info > span {
+  margin-left: 10px;
+}

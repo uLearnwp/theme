@@ -1,0 +1,21 @@
+.elementor-widget-wp-widget-meta .elementor-widget-container,
+.widget.widget_meta {
+    ul {
+        li {
+            display: inline-block;
+            vertical-align: top;
+            margin: 0 0 .4em;
+            font-size: 13px;
+            a {
+                display: block;
+                padding: 4px 8px;
+                border: 1px solid $dark-gray;
+                background-color: $white;
+                &:hover {
+                    background-color: $light-gray;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

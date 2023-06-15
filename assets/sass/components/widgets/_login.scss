@@ -1,0 +1,49 @@
+.widget {
+	.wp-block-loginout {
+		padding: 0 0 0 7px;
+		a {
+			font-family: $secondary_font_family;
+			font-style: normal;
+			font-weight: 500;
+			line-height: 22px;
+			color: $secondary_variant-color;
+			&:hover {
+				color: $link-color-on-action;
+			}
+		}
+		&.logged-in,
+		&.logged-out {
+			a {
+				&:before {
+					display: inline-block;
+					font-family: 'Linearicons-Free';
+					vertical-align: middle;
+					margin-top: -2px;
+					margin-right: 6px;
+					font-size: 125%;
+					color: $primary-color;
+				}
+			}
+		}
+		&.logged-in {
+			a {
+				&:before {
+					content: "\e820";
+				}
+			}
+		}
+		&.logged-out {
+			a {
+				&:before {
+					content: "\e81f";
+				}
+			}
+		}
+	}
+	#loginform {
+		label {
+			display: block;
+			margin: 0 0 0.5em;
+		}
+	}
+}

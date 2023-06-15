@@ -1,0 +1,29 @@
+@import "../../components/base/variables";
+
+.ulearn-theme {
+  .stm_lms_courses__single__inner {
+    overflow: hidden;
+  }
+  .stm_lms_featured_teacher {
+    .stm_lms_featured_teacher_content {
+      a.btn.btn-default {
+        font-family: $body_font_family;
+        font-size: 12px;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.24px;
+        background-color: #F54A24;
+        border-radius: 50px 50px 50px 50px;
+        padding: 18px 30px 18px 30px;
+        border: solid 2px $primary-color;
+        &:hover {
+          color: $primary-color;
+          background-color: $white;
+        }
+      }
+    }
+  }
+  .stm_lms_courses__grid_found_1 {
+    margin-bottom: 0 !important;
+  }
+}

@@ -1,0 +1,14 @@
+body {
+  select {
+    font-size: 14px;
+    font-family: $body_font_family;
+    background-image: url("../images/chevron-down.svg");
+    background-repeat: no-repeat;
+    background-size: 10px;
+    background-position: right;
+    outline: none;
+    border-radius: 0;
+    -webkit-appearance: none;
+    color: $secondary-variant-color;
+  }
+}

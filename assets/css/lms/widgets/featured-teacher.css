@@ -1,0 +1,24 @@
+/* All theme color values should be here.
+ * Delete this comment after reading!
+ */
+/* Colors */
+/* Fonts */
+.ulearn-theme .stm_lms_courses__single__inner {
+  overflow: hidden; }
+
+.ulearn-theme .stm_lms_featured_teacher .stm_lms_featured_teacher_content a.btn.btn-default {
+  font-family: system-ui;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.24px;
+  background-color: #F54A24;
+  border-radius: 50px 50px 50px 50px;
+  padding: 18px 30px 18px 30px;
+  border: solid 2px var(--primary_color); }
+  .ulearn-theme .stm_lms_featured_teacher .stm_lms_featured_teacher_content a.btn.btn-default:hover {
+    color: var(--primary_color);
+    background-color: #fff; }
+
+.ulearn-theme .stm_lms_courses__grid_found_1 {
+  margin-bottom: 0 !important; }

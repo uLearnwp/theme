@@ -1,0 +1,64 @@
+@import "../base/variables";
+@import "global";
+@import "archive";
+@import "calendar";
+@import "comments";
+@import "gallery";
+@import "lists";
+@import "meta";
+@import "recent";
+@import "rss";
+@import "search";
+@import "login";
+@import "select";
+
+.ulearn-mailchimp {
+	max-width: 420px;
+	.mc4wp-form-theme {
+		p {
+			label {
+				font-family: 'Albert Sans';
+				font-style: normal;
+				font-weight: 800;
+				font-size: 18px;
+				line-height: 22px;
+				color: #FFFFFF;
+				padding-bottom: 20px;
+			}
+		}
+
+		input[type=email] {
+			border-bottom-color: transparent;
+			padding-left: 20px;
+			border-bottom-left-radius: 50px;
+			border-top-left-radius: 50px;
+			background: #fff !important;
+			color: #818894 !important;
+			font-family: system-ui;
+			font-style: normal;
+			font-weight: 400;
+			font-size: 15px;
+			line-height: 24px;
+			&::placeholder {
+				color: #818894 !important;
+			}
+		}
+		input[type=submit] {
+			border-bottom-right-radius: 50px;
+			border-top-right-radius: 50px;
+
+			background: #F54A24 !important;
+			color: #FFFFFF !important;
+			font-family: 'Albert Sans';
+			font-style: normal;
+			font-weight: 700;
+			font-size: 15px;
+			line-height: 18px;
+			text-transform: uppercase;
+			border-color: #F54A24 !important;
+		}
+		.ulearn-inner-mailchimp {
+			display:flex;
+		}
+	}
+}

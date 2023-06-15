@@ -1,0 +1,751 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: uLearn\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-15 06:46+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.4; wp-6.2.2\n"
+"X-Domain: ulearn"
+
+#. %s: Comment name, %s: Comment
+#: inc/comments.php:33
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#. 1: Title Tag 2: Theme Name 3: Closing Title Tag
+#: inc/merlin-config.php:42
+#, php-format
+msgid "%1$s%2$s Themes &lsaquo; ulearn Setup: %3$s%4$s"
+msgstr ""
+
+#. Theme Name
+#: inc/merlin-config.php:60
+#, php-format
+msgid "%s is Activated"
+msgstr ""
+
+#. %s: name
+#: templates/footer/index.php:6
+#, php-format
+msgid "&copy; %s, Copyright by uLearn"
+msgstr ""
+
+#: templates/post/parts/info.php:13 templates/single/post/parts/info.php:14
+msgid ", "
+msgstr ""
+
+#: 404.php:6
+msgid "404"
+msgstr ""
+
+#: merlin/class-merlin.php:1789
+msgid "A plugin with the following data was processed"
+msgstr ""
+
+#: merlin/class-merlin.php:1777
+msgid "A plugin with the following data will be processed"
+msgstr ""
+
+#: inc/merlin-config.php:54
+msgid "Activate"
+msgstr ""
+
+#. Theme Name
+#: inc/merlin-config.php:58
+#, php-format
+msgid "Activate %s"
+msgstr ""
+
+#: merlin/class-merlin.php:1737
+msgid "Activating"
+msgstr ""
+
+#: inc/custom-functions.php:109
+msgid "Add widgets here."
+msgstr ""
+
+#: inc/merlin-config.php:86 inc/merlin-config.php:90
+msgid "Advanced"
+msgstr ""
+
+#: inc/merlin-config.php:92
+msgid "All done. Have fun!"
+msgstr ""
+
+#: merlin/includes/class-merlin-downloader.php:84
+#, php-format
+msgid ""
+"An error occurred while fetching file from: %1$s%2$s%3$s!%4$sReason: %5$s - "
+"%6$s."
+msgstr ""
+
+#: merlin/class-merlin.php:1510 merlin/class-merlin.php:1551
+msgid "An error occurred, please try again."
+msgstr ""
+
+#: inc/merlin-config.php:79
+msgid "Awesome. uLearn theme has already been installed and is now activated."
+msgstr ""
+
+#: inc/merlin-config.php:80
+msgid "Awesome. uLearn theme has been created and is now activated."
+msgstr ""
+
+#: inc/merlin-config.php:49
+msgid "Cancel"
+msgstr ""
+
+#: templates/post/parts/info.php:12 templates/single/post/parts/info.php:13
+msgid "Categories:"
+msgstr ""
+
+#: merlin/class-merlin.php:751
+msgid "Child"
+msgstr ""
+
+#: inc/customizer/general/class-colors.php:30
+msgid "Colors"
+msgstr ""
+
+#: inc/customizer/general/class-colors.php:31
+msgid "Colors Settings"
+msgstr ""
+
+#: comments.php:41
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:81
+msgid "Comments are closed."
+msgstr ""
+
+#: merlin/class-merlin.php:745
+msgid "Content"
+msgstr ""
+
+#: inc/customizer/general/class-layout.php:38
+#: inc/customizer/general/class-layout.php:49
+msgid "Content Width (px)"
+msgstr ""
+
+#: inc/merlin-config.php:112 merlin/class-merlin.php:2000
+msgid "Demo Content"
+msgstr ""
+
+#: merlin/class-merlin.php:2001
+msgid "Demo content data."
+msgstr ""
+
+#: inc/merlin-config.php:44
+msgid "Disable this wizard"
+msgstr ""
+
+#: inc/comments.php:86
+msgid "E-mail"
+msgstr ""
+
+#: inc/comments.php:51
+msgid "Edit"
+msgstr ""
+
+#: merlin/class-merlin.php:2013
+msgid "Elementor Widgets"
+msgstr ""
+
+#: inc/customizer/general/class-preloader.php:39
+#: inc/customizer/general/class-preloader.php:48
+msgid "Enable Preloader"
+msgstr ""
+
+#. Theme Name
+#: inc/merlin-config.php:62
+msgid "Enter your license key to enable remote updates and theme support."
+msgstr ""
+
+#: merlin/class-merlin.php:1890
+msgid "Error"
+msgstr ""
+
+#: merlin/includes/class-merlin-customizer-importer.php:70
+msgid ""
+"Error: The customizer import file does not have any content in it. Please "
+"make sure to use the correct customizer import file."
+msgstr ""
+
+#: merlin/includes/class-merlin-customizer-importer.php:57
+#, php-format
+msgid "Error: The customizer import file is missing! File path: %s"
+msgstr ""
+
+#: merlin/includes/class-merlin-customizer-importer.php:80
+msgid ""
+"Error: The customizer import file is not in a correct format. Please make "
+"sure to use the correct customizer import file."
+msgstr ""
+
+#: merlin/includes/class-merlin-customizer-importer.php:86
+msgid ""
+"Error: The customizer import file is not suitable for current theme. You can "
+"only import customizer settings for the same theme or a child theme."
+msgstr ""
+
+#: merlin/includes/class-merlin-widget-importer.php:105
+msgid ""
+"Error: Widget import data could not be read. Please try a different file."
+msgstr ""
+
+#: merlin/includes/class-merlin-widget-importer.php:72
+msgid "Error: Widget import file could not be found."
+msgstr ""
+
+#: merlin/includes/class-merlin-widget-importer.php:83
+msgid "Error: Widget import file does not have any content in it."
+msgstr ""
+
+#: inc/merlin-config.php:96
+msgid "Extras"
+msgstr ""
+
+#: inc/custom-functions.php:32
+msgid "Header menu"
+msgstr ""
+
+#: inc/merlin-config.php:70
+msgid "Hi. Welcome back"
+msgstr ""
+
+#: 404.php:12
+msgid "Home page"
+msgstr ""
+
+#: inc/merlin-config.php:53
+msgid "Import"
+msgstr ""
+
+#: inc/merlin-config.php:88
+msgid "Import Demo Content"
+msgstr ""
+
+#: merlin/includes/class-merlin-widget-importer.php:256
+msgid "Imported"
+msgstr ""
+
+#: merlin/includes/class-merlin-widget-importer.php:260
+msgid "Imported to Inactive"
+msgstr ""
+
+#: inc/merlin-config.php:50 inc/merlin-config.php:51 inc/merlin-config.php:52
+msgid "Install"
+msgstr ""
+
+#: inc/merlin-config.php:74
+msgid "Install Child Theme"
+msgstr ""
+
+#: inc/merlin-config.php:82
+msgid "Install Plugins"
+msgstr ""
+
+#: merlin/class-merlin.php:1769 merlin/class-merlin.php:1785
+#: merlin/class-merlin.php:2003 merlin/class-merlin.php:2016
+#: merlin/class-merlin.php:2029
+msgid "Installing"
+msgstr ""
+
+#: merlin/class-merlin.php:1826
+msgid "Invalid content!"
+msgstr ""
+
+#: merlin/class-merlin.php:1909
+msgid "Invalid data!"
+msgstr ""
+
+#: inc/merlin-config.php:55
+msgid "Later"
+msgstr ""
+
+#: inc/customizer/general/class-layout.php:30
+msgid "Layout"
+msgstr ""
+
+#: inc/customizer/general/class-layout.php:31
+msgid "Layout Settings"
+msgstr ""
+
+#: inc/merlin-config.php:78
+msgid "Learn about Child Themes"
+msgstr ""
+
+#: templates/post/layouts/grid.php:45 templates/post/layouts/list.php:45
+msgid "Learn more"
+msgstr ""
+
+#: inc/merlin-config.php:76
+msgid ""
+"Let's build and activate a Child Theme so you may easily make changes to the "
+"theme."
+msgstr ""
+
+#: inc/merlin-config.php:89
+msgid ""
+"Let's import demo content to your website, to help you get familiar with the "
+"theme."
+msgstr ""
+
+#: inc/merlin-config.php:84
+msgid ""
+"Let's install some essential WordPress plugins to get your site up to speed."
+msgstr ""
+
+#: merlin/class-merlin.php:729
+msgid "License"
+msgstr ""
+
+#: inc/merlin-config.php:63
+msgid "License key"
+msgstr ""
+
+#: inc/customizer/general/class-colors.php:77
+#: inc/customizer/general/class-colors.php:88
+msgid "Link Hover Color"
+msgstr ""
+
+#: merlin/includes/class-merlin-downloader.php:66
+msgid "Missing URL for downloading a file!"
+msgstr ""
+
+#: inc/comments.php:81
+msgid "Name"
+msgstr ""
+
+#: inc/merlin-config.php:66
+msgid "Need help?"
+msgstr ""
+
+#: comments.php:45
+msgid "Newer Comments"
+msgstr ""
+
+#: inc/custom-functions.php:162 inc/merlin-config.php:47
+#: templates/page/parts/next-page.php:9
+#: templates/single/post/parts/prev-next-buttons.php:74
+#: templates/single/post/parts/next-page.php:9
+msgid "Next"
+msgstr ""
+
+#: merlin/includes/class-merlin-widget-importer.php:333
+msgid "No results for widget import!"
+msgstr ""
+
+#: merlin/includes/class-merlin-widget-importer.php:266
+msgid "No Title"
+msgstr ""
+
+#: comments.php:44
+msgid "Older Comments"
+msgstr ""
+
+#: merlin/class-merlin.php:2002 merlin/class-merlin.php:2015
+#: merlin/class-merlin.php:2028
+msgid "Pending"
+msgstr ""
+
+#: merlin/class-merlin.php:1451
+msgid "Please add your license key before attempting to activate one."
+msgstr ""
+
+#: merlin/class-merlin.php:612
+msgid "Please define an SVG icon filename."
+msgstr ""
+
+#: merlin/class-merlin.php:607
+msgid "Please define default parameters in the form of an array."
+msgstr ""
+
+#: merlin/class-merlin.php:737
+msgid "Plugins"
+msgstr ""
+
+#: templates/post/parts/info.php:19 templates/single/post/parts/info.php:20
+msgid "Posted by: "
+msgstr ""
+
+#: inc/customizer/general/class-preloader.php:31
+msgid "Preloader"
+msgstr ""
+
+#: inc/customizer/general/class-preloader.php:90
+msgid "Preloader Inline Color"
+msgstr ""
+
+#: inc/customizer/general/class-preloader.php:78
+msgid "Preloader Outline Color"
+msgstr ""
+
+#: inc/customizer/general/class-preloader.php:32
+msgid "Preloader Settings"
+msgstr ""
+
+#: inc/custom-functions.php:161
+msgid "Prev"
+msgstr ""
+
+#: templates/page/parts/next-page.php:10
+#: templates/single/post/parts/prev-next-buttons.php:30
+#: templates/single/post/parts/next-page.php:10
+msgid "Previous"
+msgstr ""
+
+#: inc/customizer/general/class-colors.php:39
+#: inc/customizer/general/class-colors.php:50
+msgid "Primary Color"
+msgstr ""
+
+#: inc/custom-functions.php:107
+msgid "Primary sidebar"
+msgstr ""
+
+#: merlin/class-merlin.php:756
+msgid "Ready"
+msgstr ""
+
+#: templates/single/post/parts/related-posts.php:24
+msgid "Related Posts"
+msgstr ""
+
+#: inc/comments.php:43
+msgid "Reply"
+msgstr ""
+
+#: merlin/class-merlin.php:1120
+msgid "Required"
+msgstr ""
+
+#: merlin/class-merlin.php:1121
+msgid "Required *"
+msgstr ""
+
+#: inc/merlin-config.php:43
+msgid "Return to the dashboard"
+msgstr ""
+
+#: merlin/class-merlin.php:2026
+msgid "Revolution Slider"
+msgstr ""
+
+#: merlin/class-merlin.php:2027
+msgid "Sample Revolution sliders data."
+msgstr ""
+
+#: merlin/class-merlin.php:2014
+msgid "Sample widgets data."
+msgstr ""
+
+#: templates/content/content-search.php:1
+msgid "Search results"
+msgstr ""
+
+#: inc/customizer/general/class-colors.php:58
+#: inc/customizer/general/class-colors.php:69
+msgid "Secondary Color"
+msgstr ""
+
+#: merlin/class-merlin.php:1208
+msgid "Select Demo"
+msgstr ""
+
+#: inc/merlin-config.php:98
+msgid "Setup MasterStudy Plugin"
+msgstr ""
+
+#: merlin/includes/class-merlin-widget-importer.php:144
+msgid "Sidebar does not exist in theme (moving widget to Inactive)"
+msgstr ""
+
+#: merlin/includes/class-merlin-widget-importer.php:165
+msgid "Site does not support widget"
+msgstr ""
+
+#: inc/merlin-config.php:46
+msgid "Skip"
+msgstr ""
+
+#: merlin/class-merlin.php:461
+msgid "Something went wrong. Please refresh the page and try again!"
+msgstr ""
+
+#: templates/content/content-search.php:27
+msgid "Sorry, nothing was found"
+msgstr ""
+
+#: inc/merlin-config.php:48
+msgid "Start"
+msgstr ""
+
+#: comments.php:66
+msgid "Submit"
+msgstr ""
+
+#: merlin/class-merlin.php:1798 merlin/class-merlin.php:2004
+#: merlin/class-merlin.php:2017
+msgid "Success"
+msgstr ""
+
+#: merlin/class-merlin.php:1641
+msgid "The child theme functions.php content was generated"
+msgstr ""
+
+#: merlin/class-merlin.php:1032
+msgid "The child theme installation step has been displayed"
+msgstr ""
+
+#: merlin/class-merlin.php:1706
+msgid ""
+"The child theme screenshot was copied to the child theme, with the following "
+"result"
+msgstr ""
+
+#: merlin/class-merlin.php:1708
+msgid "The child theme screenshot was not generated, because of these results"
+msgstr ""
+
+#: merlin/class-merlin.php:1672
+msgid "The child theme style.css content was generated"
+msgstr ""
+
+#: merlin/class-merlin.php:1879
+msgid "The content import AJAX call failed with this passed data"
+msgstr ""
+
+#: merlin/class-merlin.php:1837
+msgid "The content import AJAX call will be executed with this import data"
+msgstr ""
+
+#: merlin/class-merlin.php:1246
+msgid "The content import step has been displayed"
+msgstr ""
+
+#: merlin/class-merlin.php:1821
+msgid ""
+"The content importer AJAX call failed to start, because of incorrect data"
+msgstr ""
+
+#: merlin/class-merlin.php:1904
+msgid ""
+"The content importer AJAX call for retrieving total content import items "
+"failed to start, because of incorrect data."
+msgstr ""
+
+#: merlin/includes/class-merlin-customizer-importer.php:30
+msgid "The customizer import has finished successfully"
+msgstr ""
+
+#: merlin/class-merlin.php:1404
+msgid "The existing child theme was activated"
+msgstr ""
+
+#: merlin/includes/class-merlin-downloader.php:49
+msgid "The file was not able to save to disk, while trying to download it"
+msgstr ""
+
+#: merlin/class-merlin.php:1328
+msgid "The final step has been displayed"
+msgstr ""
+
+#: merlin/class-merlin.php:962
+msgid "The license activation step has been displayed"
+msgstr ""
+
+#: merlin/class-merlin.php:1464
+msgid "The license activation was performed with the following results"
+msgstr ""
+
+#: merlin/class-merlin.php:1421
+msgid "The newly generated child theme was activated"
+msgstr ""
+
+#: 404.php:9
+msgid "The page you’re looking for doesn’t exist"
+msgstr ""
+
+#: merlin/class-merlin.php:1161
+msgid "The plugin installation step has been displayed"
+msgstr ""
+
+#: merlin/includes/class-merlin-redux-importer.php:32
+msgid "The Redux Framework data was imported"
+msgstr ""
+
+#: inc/merlin-config.php:85
+msgid ""
+"The required WordPress plugins are all installed and up to date. Press "
+"\"Next\" to continue the setup wizard."
+msgstr ""
+
+#: merlin/class-merlin.php:869
+msgid "The welcome step has been displayed"
+msgstr ""
+
+#. EDD Item Name
+#: merlin/class-merlin.php:1543
+#, php-format
+msgid "This appears to be an invalid license key for %s."
+msgstr ""
+
+#: merlin/class-merlin.php:1533
+msgid ""
+"This appears to be an invalid license key. Please try again or contact "
+"support."
+msgstr ""
+
+#: inc/merlin-config.php:71
+msgid ""
+"This wizard will set up your Masterstudy LMS theme, install plugins, and "
+"import demo content. It is optional & should take only a few minutes."
+msgstr ""
+
+#. Name of the theme
+#: inc/helpers.php:184
+msgid "uLearn"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"uLearn is a starter theme from MasterStudy LMS plugin provides a complete "
+"and ready-made site template for eLearning and online education websites. "
+"The theme is fully responsive with a cutting-edge design that can be "
+"customized according to the user's requirements. Packed with Elementor, "
+"WooCommerce, and H5P plugins, making it an all-in-one solution to build a "
+"professional website for creating and selling courses online. uLearn "
+"natively works with the MasterStudy LMS plugin and helps to customize the "
+"header, footer, and menus to match the specific brand image. The theme is "
+"designed to be SEO-friendly, ensuring that the website ranks higher on "
+"search engines. This can help attract more traffic to the eLearning website "
+"and increase engagement. A number of exquisite LMS widgets: Courses Carousel,"
+" Courses Grid, Search Box, Featured Teacher, and Recent Courses speed up the "
+"running full-fledged education website. A simple yet efficient demo importer "
+"will allow you to easily install the entire layout that will fit perfectly "
+"on your WordPress."
+msgstr ""
+
+#: inc/merlin-config.php:65
+msgid "uLearn is activated! Remote updates and theme support are enabled."
+msgstr ""
+
+#: inc/merlin-config.php:64
+msgid "uLearn is already registered, so you can go to the next step!"
+msgstr ""
+
+#: inc/customizer/class-customizer.php:67
+msgid "uLearn Options Panel"
+msgstr ""
+
+#: inc/merlin-config.php:39
+msgid "uLearn Setup"
+msgstr ""
+
+#. Author of the theme
+msgid "ulearnwp"
+msgstr ""
+
+#: merlin/class-merlin.php:1753
+msgid "Updating"
+msgstr ""
+
+#: inc/merlin-config.php:97
+msgid "View your website"
+msgstr ""
+
+#: inc/comments.php:91
+msgid "Website"
+msgstr ""
+
+#: merlin/class-merlin.php:721
+msgid "Welcome"
+msgstr ""
+
+#. Theme Name
+#: inc/merlin-config.php:69
+#, php-format
+msgid "Welcome to %s"
+msgstr ""
+
+#: inc/helpers.php:183
+msgid "Welcome to uLearn Page"
+msgstr ""
+
+#: merlin/includes/class-merlin-widget-importer.php:198
+msgid "Widget already exists"
+msgstr ""
+
+#: merlin/class-merlin.php:1442
+msgid ""
+"Yikes! The theme activation failed. Please try again or contact support."
+msgstr ""
+
+#: templates/single/post/parts/prev-next-buttons.php:47
+#: templates/single/post/parts/prev-next-buttons.php:91
+msgid "You are here"
+msgstr ""
+
+#: inc/merlin-config.php:72
+msgid ""
+"You may have already run this starter Theme setup wizard. If you would like "
+"to proceed anyway, click on the \"Start\" button below."
+msgstr ""
+
+#: inc/merlin-config.php:75
+msgid "You're good to go!"
+msgstr ""
+
+#: inc/merlin-config.php:83
+msgid "You're up to speed!"
+msgstr ""
+
+#: inc/merlin-config.php:77
+msgid ""
+"Your child theme has already been installed and is now activated, if it "
+"wasn't already."
+msgstr ""
+
+#: inc/comments.php:104
+msgid "Your Comment"
+msgstr ""
+
+#: inc/comments.php:59
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: merlin/class-merlin.php:1538
+msgid "Your license is not active for this URL."
+msgstr ""
+
+#. Expiration date
+#: merlin/class-merlin.php:1523
+#, php-format
+msgid "Your license key expired on %s."
+msgstr ""
+
+#: merlin/class-merlin.php:1529
+msgid "Your license key has been disabled."
+msgstr ""
+
+#: merlin/class-merlin.php:1547
+msgid "Your license key has reached its activation limit."
+msgstr ""
+
+#. Theme Author
+#: inc/merlin-config.php:95
+#, php-format
+msgid "Your theme has been all set up. Enjoy your new theme by %s."
+msgstr ""

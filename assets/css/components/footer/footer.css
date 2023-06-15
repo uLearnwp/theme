@@ -1,0 +1,11 @@
+/* All theme color values should be here.
+ * Delete this comment after reading!
+ */
+/* Colors */
+/* Fonts */
+.ulearn-footer {
+  padding: 35px 0;
+  background-color: #fff;
+  color: #222222; }
+  .ulearn-footer .container {
+    padding: 0 25px; }

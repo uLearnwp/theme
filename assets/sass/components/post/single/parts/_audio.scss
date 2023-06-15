@@ -1,0 +1,12 @@
+.wp-audio-shortcode {
+  .mejs-inner {
+    .mejs-controls {
+      .mejs-playpause-button,
+      .mejs-volume-button {
+        position: relative;
+        overflow: hidden;
+        width: 27px;
+      }
+    }
+  }
+}

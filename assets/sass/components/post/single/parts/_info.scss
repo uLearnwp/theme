@@ -1,0 +1,58 @@
+@import '../../../base/variables';
+
+body {
+	&.single {
+		//changed single-post to single in order to apply these styles to all post type single standart posts
+		.post-info {
+			display: flex;
+			align-items: center;
+			flex-wrap: wrap;
+			border-bottom: 1px solid $gray;
+			padding-top: 5px;
+			padding-bottom: 20px;
+			margin-bottom: 40px;
+			&__item {
+				margin-right: 35px;
+				margin-bottom: 12px;
+				font-size: 13px;
+				color: $gray;
+				&:before {
+					font-family: 'Linearicons-Free';
+					display: inline-block;
+					vertical-align: middle;
+					margin-top: -2px;
+					margin-right: 4px;
+					font-size: 125%;
+					color: $primary-color;
+				}
+				&.post-categories {
+					&:before {
+						content: "\e828";
+					}
+				}
+				&.post-author {
+					&:before {
+						content: "\e82a";
+					}
+				}
+				&.post-date {
+					&:before {
+						content: "\e836";
+					}
+				}
+				&.post-comment {
+					&:before {
+						content: "\e83f";
+					}
+				}
+				a {
+					color: $gray;
+					text-decoration: none;
+					&:hover {
+						color: $link-color-on-action;
+					}
+				}
+			}
+		}
+	}
+}

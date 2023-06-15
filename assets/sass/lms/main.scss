@@ -1,0 +1,148 @@
+@import "../components/base/variables";
+@import "widgets/featured-teacher";
+@import "widgets/courses-carousel";
+@import "lesson";
+@import "course";
+@import "account";
+@media (max-width: 1200px) and (min-width: 800px) {
+  .float_menu_position__left, {
+    .hfe-nav-menu__breakpoint-tablet .hfe-nav-menu__layout-horizontal .hfe-nav-menu {
+      padding-left: 70px;
+    }
+  }
+  .float_menu_position__right {
+    .hfe-nav-menu__breakpoint-tablet .hfe-nav-menu__layout-horizontal .hfe-nav-menu {
+      padding-right: 70px;
+    }
+  }
+  .hfe-nav-menu__breakpoint-tablet .hfe-nav-menu__layout-horizontal .hfe-nav-menu {
+    padding-bottom: 15px;
+  }
+}
+@media (max-width: 1200px) {
+  li.stm_lms_badge_menu {
+    display: none;
+  }
+}
+
+.ulearn-logo-merlin {
+  width: 220px;
+  height: auto;
+  margin-bottom:  20px;
+}
+.ulearn-theme #page{
+  padding-bottom: 125px;
+}
+.elementor-page footer,.ulearn-footer {
+  position: relative;
+  z-index: 15;
+  width: 100%;
+}
+html {
+  position: relative;
+}
+
+.ehf-header #masthead {
+  z-index: 1001 !important;
+}
+div.multiseparator {
+  position: relative;
+  overflow: hidden;
+  margin: 30px 0;
+  height: 3px;
+  width: 100%;
+
+  &:after {
+    @include pseudo(absolute, 50px, 3px);
+    background-color: $primary-color;
+    bottom: 0;
+    left: 0;
+  }
+
+  &:before {
+    @include pseudo(absolute, 1200px, 1px);
+    background-color: #dcdcdc;
+    bottom: 1px;
+    left: 65px;
+  }
+}
+.hfe-nav-menu__layout-horizontal .hfe-nav-menu .sub-arrow {
+  margin-right: -20px;
+}
+body {
+  .ulearn-theme {
+
+     .stm-lms-wrapper .ulearn-row {
+      display: block;
+    }
+  }
+}li {
+  &.stm_lms_badge_menu {
+    position: relative;
+     > a:after {
+      content: attr(title);
+      position: absolute;
+       opacity: 1 !important;
+      right: -12px;
+      top: -6px;
+      background: #385bce !important;
+      color: #fff;
+      padding: 0px 5px;
+      font-size: 8px;
+      text-align: center;
+      text-transform: uppercase;
+      border-radius: 3px;
+      border-bottom-left-radius: 0;
+      line-height: 14px;
+    }
+  }
+  .sub-menu {
+    li {
+      &.stm_lms_badge_menu {
+        > a:after {
+          display: block !important;
+          right: 6px;
+          top: 12px;
+        }
+      }
+    }
+  }
+}
+body {
+  .stm_lms_courses_wrapper {
+    h1 {
+      line-height: 55px;
+      word-spacing: -1px;
+      letter-spacing: -0.4px;
+      font-weight: 300;
+      font-size: 50px;
+    }
+    .stm_lms_courses__archive_filter_toggle {
+      display: none;
+    }
+    .courses_filters {
+      align-items: center;
+    }
+    .stm_lms_courses__archive {
+      margin-top: 28px !important;
+    }
+  }
+  .stm-lms-wrapper {
+    padding-bottom: 60px;
+    .container {
+      padding: 0 30px;
+    }
+  }
+  .stm_lms_login_wrapper, .stm_lms_register_wrapper {
+    input {
+      background-color: #fff;
+      border: none;
+      padding: 6px 12px;
+      font-size: 14px;
+      &:focus {
+        background-color: #fff;
+      }
+    }
+  }
+}
+

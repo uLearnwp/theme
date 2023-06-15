@@ -1,0 +1,93 @@
+.elementor-widget-wp-widget-media_gallery .elementor-widget-container,
+.widget.widget_media_gallery,
+.gallery {
+  display: block;
+  margin: 0 -15px;
+  .gallery-item {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin: 1em 0;
+    width: 100%;
+    .gallery-icon {
+      padding: 15px;
+    }
+    .gallery-caption {
+      padding: 10px 15px;
+      font-size: 95%;
+      line-height: 1.55;
+    }
+  }
+  &-columns-1 {
+    .gallery-item {
+      width: 100%;
+    }
+  }
+  &-columns-2 {
+    .gallery-item {
+      width: 50%;
+    }
+  }
+  &-columns-3 {
+    .gallery-item {
+      width: 33.333333%;
+    }
+  }
+  &-columns-4 {
+    .gallery-item {
+      width: 25%;
+    }
+  }
+  &-columns-5 {
+    .gallery-item {
+      width: 20%;
+    }
+  }
+  &-columns-6 {
+    .gallery-item {
+      width: 16.666666%;
+    }
+  }
+  &-columns-7 {
+    .gallery-item {
+      width: 14.28%;
+      .gallery-caption {
+        display: none;
+      }
+    }
+  }
+  &-columns-8 {
+    .gallery-item {
+      width: 12.5%;
+      .gallery-caption {
+        display: none;
+      }
+    }
+  }
+  &-columns-9 {
+    .gallery-item {
+      width: 11.111111%;
+      .gallery-caption {
+        display: none;
+      }
+    }
+  }
+
+  @media (max-width: 767px) {
+    &:not(.gallery-columns-1) {
+      .gallery-item {
+        flex: inherit;
+        width: 50%;
+      }
+    }
+  }
+
+  @media (max-width: 420px) {
+    &:not(.gallery-columns-1) {
+      .gallery-item {
+        flex: inherit;
+        width: 100%;
+      }
+    }
+  }
+}

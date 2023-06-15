@@ -1,0 +1,113 @@
+.elementor-widget-wp-widget-categories .elementor-widget-container ul,
+.widget.widget_nav_menu ul,
+.widget.widget_pages ul,
+.widget.widget_categories ul,
+ul.wp-block-page-list {
+  > li {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 5px;
+    padding-left: 0;
+    position: relative;
+    font-weight: 400;
+    font-family: $body_font_family;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: $secondary_variant-color;
+    &:before {
+      display: none;
+    }
+    a {
+      display: inline-block;
+      vertical-align: top;
+      position: relative;
+      padding: 10px 5px 10px 0;
+      font-weight: 400;
+      font-family: $body_font_family;
+      font-style: normal;
+      font-size: 14px;
+      line-height: 24px;
+      color: $secondary_variant-color;
+      &:hover {
+        color: var(--link_color_hover);
+      }
+      &:after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: auto;
+        width: 4px;
+        min-height: 50px;
+        transition: all 0.15s;
+        visibility: hidden;
+        opacity: 0;
+        transform: none;
+      }
+      &:hover {
+        &:after {
+          visibility: visible;
+          opacity: 1;
+        }
+      }
+      &:empty {
+        display: none;
+      }
+    }
+    &.current-cat {
+      a {
+        &:after {
+          visibility: visible;
+          opacity: 1;
+        }
+      }
+    }
+    ul {
+      flex: 0 0 100%;
+      margin-bottom: 15px;
+      li {
+        padding-left: 15px;
+        line-height: 26px;
+        margin-bottom: 0;
+        background-color: transparent;
+        font-size: 13px;
+        a {
+          position: relative;
+          padding: 2px 5px 2px 0;
+          font-weight: 400;
+          &:before {
+            content: "-";
+            display: block;
+            position: absolute;
+            top: 3px;
+            left: -9px;
+            border: 0;
+            visibility: visible;
+            opacity: 1;
+            font-size: 13px;
+            color: $black-gray;
+            background: transparent;
+          }
+          &:after {
+            display: none;
+          }
+        }
+        ul {
+          margin-bottom: 0;
+          li {
+            padding-left: 12px;
+            a {
+              padding: 0 5px 0 0;
+              &:before {
+                top: 1px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

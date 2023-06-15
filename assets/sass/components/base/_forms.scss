@@ -1,0 +1,123 @@
+@import "buttons";
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="url"],
+input[type="search"],
+textarea,
+select {
+  background: none;
+  border: none;
+  border-bottom: 1px solid $primary-color;
+  padding: 10px 0;
+  outline: none;
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.4;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  border-radius: 0;
+  width: 100%;
+
+  &:focus {
+    background-color: transparent;
+  }
+
+  &:active {
+    background-color: transparent;
+  }
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="url"],
+input[type="search"],
+select {
+  height: 46px;
+}
+
+textarea {
+  height: 180px;
+  overflow-y: auto;
+}
+
+@media (max-width: 1080px) {
+  body {
+    .calc-container {
+      .calc-list {
+        min-height: auto;
+        margin-bottom: 0 !important;
+        padding: 15px !important;
+      }
+    }
+  }
+}
+
+.ulearn-newsletter {
+  .mc4wp-response {
+    .mc4wp-alert {
+      font-size: 13px;
+    }
+  }
+}
+
+.ulearn-checkbox {
+  display: inline-flex !important;
+  vertical-align: top;
+  align-items: center;
+  position: relative;
+
+  input {
+    position: absolute !important;
+    opacity: 0;
+    cursor: pointer;
+    height: 0 !important;
+    width: 0 !important;
+
+    &:checked {
+      ~ span {
+        &:after {
+          display: flex;
+        }
+
+        &:before {
+          border-color: $green;
+          background-color: $green;
+        }
+      }
+    }
+  }
+
+  span {
+    position: relative;
+    padding: 2px 0 2px 30px;
+    display: inline-block;
+    line-height: 26px;
+    vertical-align: top;
+
+    &:before,
+    &:after {
+      content: "";
+      display: block;
+      border: 2px solid $block-second-color;
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      top: 4px;
+      left: 0;
+    }
+
+    &:after {
+      content: "\e910";
+      font-family: 'starter';
+      display: none;
+      align-items: center;
+      justify-content: center;
+      border-color: transparent;
+      font-size: 14px;
+      color: $white;
+    }
+  }
+}

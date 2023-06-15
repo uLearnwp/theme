@@ -1,0 +1,112 @@
+@import "variables";
+
+$button_border_radius: 22px;
+$button_color_default: $primary-color;
+$button_hover_color_default: $primary-variant-color;
+
+.button-template {
+  font-family: $secondary_font_family;
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
+  background-color: $button_color_default;
+  border: none;
+  border-radius: 0;
+  padding: 14px 22px;
+  display: inline-block;
+  line-height: 18px;
+  text-shadow: none;
+  font-weight: 700;
+  font-size: 16px;
+  color: $white;
+  transition: .1s ease;
+  min-width: 140px;
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: $button_hover_color_default;
+    border-color: $button_hover_color_default;
+    text-decoration: none;
+    outline: none;
+    color: $white;
+  }
+}
+
+.button-template-outline {
+  @extend .button-template;
+  background-color: transparent;
+  color: $button_color_default;
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: $button_color_default;
+    border-color: $button_color_default;
+    color: $white;
+  }
+}
+
+.button-template-full {
+  display: block;
+  width: 100%;
+}
+
+input[type="submit"],
+input[type="button"],
+button {
+  @extend .button-template;
+}
+
+.ulearn-button,
+a.ulearn-button {
+  @extend .button-template;
+  &-full {
+    @extend .button-template-full;
+  }
+  &-outline {
+    @extend .button-template-outline;
+  }
+  span {
+    font-style: normal;
+    font-weight: normal;
+  }
+
+  &.icon-right {
+    .button-icon,
+    .fa, .fas {
+      margin-left: 10px;
+    }
+  }
+  &.icon-left {
+    .button-icon,
+    .fa, .fas {
+      margin-right: 10px;
+    }
+  }
+}
+
+.wp-block-button {
+  .wp-block-button__link {
+    @extend .button-template;
+  }
+  &.is-style-outline {
+    .wp-block-button__link {
+      @extend .button-template-outline;
+      border: 1px solid $primary-color;
+    }
+  }
+}
+
+.wp-block-search__button {
+  @extend .button-template;
+}
+
+.wp-block-button.is-style-squared .wp-block-button__link {
+  border-radius: 0;
+}
+
+.comment-respond {
+  input[type="submit"],
+  input[type="button"] {
+    @extend .button-template;
+  }
+}
